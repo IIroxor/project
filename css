@@ -1,0 +1,148 @@
+body{
+  background: url(img/page-bg.jpg);
+  font-family: 'Bree Serif', serif;
+  color:#6a6969;
+  margin:0px;
+}
+/*----------------------------- 
+               ШАПКА           */
+header{
+  width:864px;
+  height:115px;
+  background-color:#222222;
+  padding:0px 43px;
+  position: fixed;
+  left:50%;
+  margin: 0 0 0 -475px;
+}
+.logo{
+  padding-top: 40px;
+  float:left;
+}
+.menu{
+  padding-top: 30px;
+  float: right;
+}
+.menu li{
+  float:left;
+  list-style:none;
+  margin-left:50px;
+  font: 400 16px/20px 'Bree Serif', serif;
+}
+.container{
+  width:950px;
+  margin:0 auto 300px auto;
+  background:url(img/body-bg.png);
+  overflow:auto;
+  padding-bottom:100px;
+}
+/*---------------------------
+         About---------------*/
+#about .content{overflow:auto;}
+#about h1{
+  margin:40px; 
+  padding-top:120px;
+  font: 400 40px/60px 'Bree Serif', serif;
+}
+.top-social{
+  float: right;
+  margin:-80px 45px 0 0;
+}
+.top-social li{
+  float:left;
+  list-style:none;
+  margin-left: 15px;
+}
+.top-divider{
+  width:91%;
+  height:9px;
+  background:url(img/divider.png) repeat-x;
+  clear:both;
+  margin-left: 40px;
+  margin-right: inherit;
+}
+
+.designer-photo img{
+  float:left; 
+  margin:40px; 
+}
+.container h2{
+  font: 20px/24px 'Bree Serif', serif;
+  margin: 40px;
+}
+.container h3{
+  font: 16px/20px 'Bree Serif', serif;
+  margin-right: 40px;
+}
+.icon li{
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+}
+#experience .content{overflow:auto;}
+#experience h1{
+  margin-left:40px; 
+  padding-top: 40px;
+  font: 400 40px/60px 'Bree Serif', serif;
+}
+/*------------------------------
+          DESCRIPTION           */
+.description{
+  float: right;
+  margin:auto;
+}
+.description li{
+  float:left;
+  list-style:none;
+  margin-left: 15px;
+}
+.description{
+  white-space: nowrap;
+  font-size: 0;
+}
+.description-item {
+  white-space: normal;  
+  display: inline-block;
+  width: 27.5%;
+  margin:40px auto auto 40px;
+  font-size: 14px;
+}
+.description .description-item:last-child {
+  margin-right: 0px;
+}
+/*-----------------------------------
+             WORK                    */
+#work .content{overflow: auto;}
+#work h1{
+  margin-left:40px; 
+  padding-top: 40px;
+  font: 400 40px/60px 'Bree Serif', serif;
+  margin-top: 10px;
+}
+.foto{
+  overflow: auto;
+}
+.foto li{
+  list-style:none;
+  float:left;
+  margin:0px 20px 15px 0px;
+  padding:0px;
+}
+/*------------------------------------
+              Connect                 */
+#connect .content{overflow: auto;}
+#connect h1{
+  margin-left:40px; 
+  padding-top: 40px;
+  font: 400 40px/60px 'Bree Serif', serif;
+}
+#connect .form {
+  width: 10px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+
+
+
+
